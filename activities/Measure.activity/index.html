@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<title>My Activity</title>
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, viewport-fit=cover"/>
+<link rel="stylesheet" media="not screen and (device-width: 1200px) and (device-height: 900px)"
+	href="lib/sugar-web/graphics/css/sugar-96dpi.css">
+<link rel="stylesheet" media="screen and (device-width: 1200px) and (device-height: 900px)"
+	href="lib/sugar-web/graphics/css/sugar-200dpi.css">
+<link rel="stylesheet" href="css/activity.css">
+
+
+
+  <script type="text/javascript" src="lib/p5.js" ></script>
+  <script type="text/javascript" src="lib/p5.sound.js"></script>
+  <script data-main="js/loader" src="lib/require.js"></script>
+</head>
+
+<body>
+<div id="main-toolbar" class="toolbar">
+  <button class="toolbutton" id="activity-button" title="My Activity"></button>
+
+  <!-- Add more buttons here -->
+
+  <!-- Buttons with class="pull-right" will be right aligned -->
+  <button class="toolbutton pull-right" id="stop-button" title="Stop"></button>
+</div>
+
+<!-- The content of your activity goes inside the canvas -->
+<div id="canvas">
+
+  <!-- Replace this message with your own content -->
+  <div id="one"></div> <br>
+    <div id="three"></div>
+    <div id="two"></div>
+  <br>
+  <button id="timebased" value="0">TIME BASED</button>
+  <button id="freqbased" value="0" style="display: none;">FREQUENCY BASED</button>
+  <button id="timebased2" value="0" style="display: none;">TIME BASED</button>
+  <button id="freqbased2" value="0" style="display: none;">FREQUENCY BASED</button>
+  <!-- <button id="graph2" value="0">ty</button> -->
+  
+  <script language="javascript" type="text/javascript" src="js/main.js"></script>
+ 
+
+</div>
+</body>
+
+</html>

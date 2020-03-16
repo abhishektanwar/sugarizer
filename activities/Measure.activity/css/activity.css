@@ -1,0 +1,18 @@
+#main-toolbar #activity-button {
+  background-image: url(../activity/activity-icon.svg);
+}
+
+/* #defaultCanvas1{
+  background-image: url(../images/bg.jpg);
+} */
+
+#two{
+  margin-top: -4.7%;
+}
+#one{
+  overflow: hidden;
+}
+body{
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
