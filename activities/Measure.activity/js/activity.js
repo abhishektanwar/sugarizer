@@ -104,7 +104,21 @@ define(["sugar-web/activity/activity",], function (activity) {
 	// 	}
 	// }
 	// });
-  
+
+	document.getElementById("timebased2").addEventListener('click',function(){
+		document.getElementById("one").style.display="block";
+		document.getElementById("two").style.display="none";
+		document.getElementById("freqbased2").style.visibility="visible";
+		document.getElementById("timebased2").style.visibility="hidden";
+	  });
+	  
+	document.getElementById("freqbased2").addEventListener('click',function(){
+		document.getElementById("one").style.display="none";
+		document.getElementById("two").style.display="block";
+		document.getElementById("freqbased2").style.visibility="hidden";
+		document.getElementById("timebased2").style.visibility="visible";
+	  });
 	});
+	
 
 });

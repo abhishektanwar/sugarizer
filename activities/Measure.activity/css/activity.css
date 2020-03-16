@@ -10,9 +10,10 @@
   margin-top: -4.7%;
 }
 #one{
-  overflow: hidden;
+  margin-top: -4.7%;
 }
 body{
   overflow-y: hidden;
   overflow-x: hidden;
-}
+} 
+
