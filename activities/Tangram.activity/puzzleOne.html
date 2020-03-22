@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, viewport-fit=cover"/>
+<link rel="stylesheet" media="not screen and (device-width: 1200px) and (device-height: 900px)"
+	href="lib/sugar-web/graphics/css/sugar-96dpi.css">
+<link rel="stylesheet" media="screen and (device-width: 1200px) and (device-height: 900px)"
+	href="lib/sugar-web/graphics/css/sugar-200dpi.css">
+<link rel="stylesheet" href="css/activity.css">
+
+
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TANGRAM</title>
+  
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+  <link rel="stylesheet" type="text/css" href="css/puzzleOne.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  
+  <script src="js/puzzleOne.js" type="text/javascript"></script>
+  <script data-main="js/loader" src="lib/require.js"></script>
+</head>
+<body>
+  <div id="main-toolbar" class="toolbar">
+    <button class="toolbutton" id="activity-button" title="TANGRAM"></button>
+  
+    <!-- Add more buttons here -->
+  
+    <!-- Buttons with class="pull-right" will be right aligned -->
+    <button class="toolbutton pull-right" id="stop-button" title="Stop"></button>
+  </div>
+<div id="canvas">
+
+
+  <div class="flexContainer">
+
+        <div id="square" class="rotate selectable" data-name="square"></div>
+        <div id="parallelogram" class="rotate selectable" data-name="parallelogram"></div>
+        <div id="triangleSmall1" class="rotate selectable" data-name="triangleSmall1"></div>
+        <div id="triangleSmall2" class="rotate selectable" data-name="triangleSmall2"></div>
+        <div id="triangleMiddle" class="rotate selectable" data-name="triangleMiddle"></div>
+        <div id="triangleBig1" class="rotate selectable" data-name="triangleBig1"></div>
+        <div id="triangleBig2" class="rotate selectable" data-name="triangleBig2"></div>
+
+        <div id="squareRight" class="destination" data-name="square"></div>
+        <div id="parallelogramRight" class="destination" data-name="parallelogram"></div>
+        <div id="triangleSmall1Right" class="destination" data-name="triangleSmall1"></div>
+        <div id="triangleSmall2Right" class="destination" data-name="triangleSmall2"></div>
+        <div id="triangleMiddleRight" class="destination" data-name="triangleMiddle"></div>
+        <div id="triangleBig1Right" class="destination" data-name="triangleBig1"></div>
+        <div id="triangleBig2Right" class="destination" data-name="triangleBig2"></div>
+
+  </div>
+</div>
+</body>
+</html>
